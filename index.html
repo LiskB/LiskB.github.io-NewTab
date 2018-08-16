@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>New Tab</title>
+    <meta name="description" content="Home Page">
+    <meta name="author" content="Branden Lisk">
+    <link rel="stylesheet" href="main.css">
+    
+    <!-- Javascript scripts -->
+    <script type="text/javascript" src="clock.js"></script>
+    <script type="text/javascript" src="search.js"></script>
+    <script type="text/javascript" src="dropdown.js"></script>
+</head>
+
+
+<body onload="startTime()">
+    <div class="background" id="background">
+        <script type="text/javascript" src="background.js"></script>
+        <div id="time" class="clock"></div>
+        <div class="dropdown">
+            <p onclick="displayLinks()" class="dropbtn">Quick Links</p>
+            <div id="links" class="dropdown-content">
+                <a href="https://www.facebook.com/"><img src="Resources/logos/facebook-logo.png"></a>
+                <a href="https://github.com"><img src="Resources/logos/github-logo.png"></a>
+                <a href="https://www.google.ca/"><img src="Resources/logos/google-logo.png"></a>
+                <a href="https://www.linkedin.com/"><img src="Resources/logos/linkedin-logo-1.png"></a>
+                <a href="https://www.paypal.com/"><img src="Resources/logos/paypal-logo.png"></a>
+                <a href="https://www.reddit.com/"><img src="Resources/logos/reddit-alien-head-logo.png"></a>
+                <a href="https://soundcloud.com/"><img src="Resources/logos/soundcloud-logo.png"></a>
+                <a href="https://twitter.com/"><img src="Resources/logos/twitter-logo.png"></a>
+                <a href="https://www.wikipedia.org/"><img src="Resources/logos/wikipedia-logo.png"></a>
+                <a href="https://www.youtube.com/"><img src="Resources/logos/youtube-play-button.png"></a>
+            </div>
+        </div>
+        <div class="search-items" id="search-items">
+            <div class="icon-frame">
+                <img src="Resources/search_icon.png" class="search-icon">
+            </div>
+            <input type="text" id="search" class="search-bar" onkeydown="search()">
+        </div>
+    </div>
+</body>
+
+    
+</html>

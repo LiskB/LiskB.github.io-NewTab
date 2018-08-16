@@ -1,0 +1,186 @@
+/* Overall content and background */
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background {
+    background-image: url("");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Clock displayed in center of screen */
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    font-size: 150px;
+}
+
+/* Dropdown menu */
+.dropdown {
+    position: absolute;
+    margin: 8px 20px 5px 20px;
+}
+
+.dropbtn {
+    color: #f2f2f2;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 100%;
+    max-height: 93vh;
+    overflow: hidden;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+    
+}
+
+.dropdown-content a img {
+    width: 55px;
+}
+
+.show {
+    display:block;
+}
+
+/* Search bar */
+.search-items {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    
+    display: flex;
+    flex-direction: row;
+}
+
+
+.search-icon {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: 55px;
+}
+
+.search-bar {
+    position: relative;
+    top: 5px;
+    height: 35px;
+    width: 400px;
+    padding: 0px 20px;
+    
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 20px;
+    outline: none;
+    
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.search-bar:focus {
+    width: 600px;
+    height: 50px;
+}
+
+/* Media queries for resizing the dropdown menu with page resizing */
+@media only screen and (max-height: 870px){
+    .dropdown-content a {
+        padding: 12px 16px;
+    }
+
+    .dropdown-content a img {
+        width: 50px;
+    }
+} @media only screen and (max-height: 820px){
+    .dropdown-content a {
+        padding: 10px 16px;
+    }
+
+    .dropdown-content a img {
+        width: 45px;
+    }
+} @media only screen and (max-height: 720px){
+    .dropdown-content a {
+        padding: 4px 16px;
+    }
+
+    .dropdown-content a img {
+        width: 40px;
+    }
+} @media only screen and (max-height: 570px){
+    .dropdown-content a {
+        padding: 0px 16px;
+    }
+
+    .dropdown-content a img {
+        width: 33px;
+    }
+}
+
+/* Media queries for resizing the clock and search bar */
+@media only screen and (max-width: 780px){
+    .clock {
+        font-size: 100px;
+    }
+    .search-icon {
+        width: 40px;
+    }
+    .search-bar {
+        height: 30px;
+        width: 200px;
+        padding: 0px 20px;
+        font-size: 22px;
+    }
+    .search-bar:focus {
+        width: 380px;
+        height: 40px;
+    }
+} @media only screen and (max-width: 620px){
+    .clock {
+        font-size: 65px;
+    }
+    .search-icon {
+        width: 35px;
+    }
+    .search-bar {
+        height: 25px;
+        width: 150px;
+        padding: 0px 20px;
+        font-size: 18px;
+    }
+    .search-bar:focus {
+        width: 250px;
+        height: 35px;
+    }
+}
