@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "RandomPic Tab",
+	"description": "On every new tab, a new background picture shows in your display. Includes a clock, Google search functionality, and quick links to some popular websites.",
+	"version": "1",
+	"author": "Branden Lisk",
+    
+	"browser_action": {
+		"default_title": "New Tab"
+	},
+
+	"chrome_url_overrides" : {
+		"newtab": "index.html"
+	},
+
+	"permissions": ["activeTab"]
+}
