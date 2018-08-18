@@ -1,10 +1,11 @@
 /* This script controls the behaviour of the dropdown menu */
 //this function toggles the show class when required
-function displayLinks() {
-    document.getElementById("links").classList.toggle("show");
-}
 
-//creates a listener for a click on the correct element
+document.getElementById("dropbutton").addEventListener('click', function() {
+    document.getElementById("links").classList.toggle("show");
+});
+
+//creates a listener for a click
 window.onclick = function(e){
     if (!e.target.matches(".dropbtn")){
         let dropdowns = document.getElementsByClassName("dropdown-content");

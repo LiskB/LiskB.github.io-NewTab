@@ -7,20 +7,15 @@
     <meta name="description" content="Home Page">
     <meta name="author" content="Branden Lisk">
     <link rel="stylesheet" href="main.css">
-    
-    <!-- Javascript scripts -->
-    <script type="text/javascript" src="clock.js"></script>
-    <script type="text/javascript" src="search.js"></script>
-    <script type="text/javascript" src="dropdown.js"></script>
 </head>
 
 
-<body onload="startTime()">
+<body>
     <div class="background" id="background">
         <script type="text/javascript" src="background.js"></script>
         <div id="time" class="clock"></div>
         <div class="dropdown">
-            <p onclick="displayLinks()" class="dropbtn">Quick Links</p>
+            <p id="dropbutton" class="dropbtn">Quick Links</p>
             <div id="links" class="dropdown-content">
                 <a href="https://www.facebook.com/"><img src="Resources/logos/facebook-logo.png"></a>
                 <a href="https://github.com"><img src="Resources/logos/github-logo.png"></a>
@@ -38,9 +33,13 @@
             <div class="icon-frame">
                 <img src="Resources/search_icon.png" class="search-icon">
             </div>
-            <input type="text" id="search" class="search-bar" onkeydown="search()">
+            <input type="text" id="search" class="search-bar">
         </div>
     </div>
+    <!-- Javascript scripts: load at end of body so elements are defined -->
+    <script type="text/javascript" src="search.js"></script>
+    <script type="text/javascript" src="dropdown.js"></script>
+    <script type="text/javascript" src="clock.js"></script>
 </body>
 
     

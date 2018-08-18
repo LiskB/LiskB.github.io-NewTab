@@ -1,4 +1,9 @@
 /* This script is used to create the clock element. */
+if(window.addEventListener){
+    window.addEventListener('load', startTime())
+}
+
+
 function startTime() {
     let date = new Date(); //get new date object, set the time elements to variables
     let h = date.getHours();
