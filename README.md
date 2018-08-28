@@ -1,74 +1,31 @@
-# Project Title
+# New Tab Extension
 
-One Paragraph of project description goes here
+[Extension published on Google Chrome Web Store](https://chrome.google.com/webstore/detail/random-new-tab/jodpckagfkaelmcabebaknoeogijiode)
+
+Every time a new tab is opened, a new beautiful picture from a creative artist at unsplash.com is displayed. Includes a clock, a search bar that searches directly to Google, and a dropdown menu of links for some of the popular websites.
+
+Created using concepts from [freecodecamp's](https://www.freecodecamp.org/) "Responsive Web Design" and "Javascript Algorithms And Data Structures" courses.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+To view the code, clone or download this repository, and open it in an editor of your choice.
 
 ```
-Give the example
+git clone https://github.com/LiskB/New-Tab.git
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+To use the extension, add it on the [Google Chrome Web Store](https://chrome.google.com/webstore/detail/random-new-tab/jodpckagfkaelmcabebaknoeogijiode). To see what the extension looks like, visit [this webpage](https://liskb.github.io/New-Tab/).
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* HTML, CSS and [Javascript](https://developer.mozilla.org/bm/docs/Web/JavaScript)- The languages used
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+**Branden Lisk**
 
 ## Screenshots
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+
+See screenshots on the [Google Chrome Web Store](https://chrome.google.com/webstore/detail/random-new-tab/jodpckagfkaelmcabebaknoeogijiode).
