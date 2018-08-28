@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
-	"name": "RandomPic Tab",
-	"description": "On every new tab, a new background picture shows in your display. Includes a clock, Google search functionality, and quick links to some popular websites.",
+	"name": "Random New Tab",
+	"description": "A random picture is shown on every new tab. Includes a clock, Google search functionality, and quick links to popular websites.",
 	"version": "1",
 	"author": "Branden Lisk",
     
